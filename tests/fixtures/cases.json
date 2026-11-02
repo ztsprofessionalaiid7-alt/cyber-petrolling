@@ -1,0 +1,137 @@
+[
+  {
+    "id": "E01",
+    "category": "easy",
+    "ip": "183.62.140.253",
+    "label": "attack",
+    "why": "286 failed, 10 users",
+    "failures": 286,
+    "users": 10
+  },
+  {
+    "id": "E02",
+    "category": "easy",
+    "ip": "112.95.230.3",
+    "label": "attack",
+    "why": "26 failed, 3 users, 1 min",
+    "failures": 26,
+    "users": 3
+  },
+  {
+    "id": "E03",
+    "category": "easy",
+    "ip": "185.190.58.151",
+    "label": "attack",
+    "why": "17 failed, 3 users, 5 min",
+    "failures": 17,
+    "users": 3
+  },
+  {
+    "id": "E04",
+    "category": "easy",
+    "ip": "123.235.32.19",
+    "label": "attack",
+    "why": "7 failed, 1 user, 2 min",
+    "failures": 7,
+    "users": 1
+  },
+  {
+    "id": "E05",
+    "category": "easy",
+    "ip": "119.4.203.64",
+    "label": "attack",
+    "why": "6 failed, 1 user, 12 sec",
+    "failures": 6,
+    "users": 1
+  },
+  {
+    "id": "E06",
+    "category": "easy",
+    "ip": "119.137.62.142",
+    "label": "benign",
+    "why": "only successful login (fztu)",
+    "failures": 0,
+    "users": 0
+  },
+  {
+    "id": "E07",
+    "category": "easy",
+    "ip": "191.210.223.172",
+    "label": "benign",
+    "why": "1 failed",
+    "failures": 1,
+    "users": 1
+  },
+  {
+    "id": "E08",
+    "category": "easy",
+    "ip": "103.207.39.165",
+    "label": "benign",
+    "why": "1 failed",
+    "failures": 1,
+    "users": 1
+  },
+  {
+    "id": "E09",
+    "category": "easy",
+    "ip": "175.102.13.6",
+    "label": "benign",
+    "why": "1 failed",
+    "failures": 1,
+    "users": 1
+  },
+  {
+    "id": "E10",
+    "category": "easy",
+    "ip": "88.147.143.242",
+    "label": "benign",
+    "why": "1 failed",
+    "failures": 1,
+    "users": 1
+  },
+  {
+    "id": "H11",
+    "category": "hard",
+    "ip": "187.141.143.180",
+    "label": "attack",
+    "why": "password spraying: 80 failed, 28 users",
+    "failures": 80,
+    "users": 28
+  },
+  {
+    "id": "H12",
+    "category": "hard",
+    "ip": "103.99.0.122",
+    "label": "attack",
+    "why": "46 failed over 19 users, 2 hours",
+    "failures": 46,
+    "users": 19
+  },
+  {
+    "id": "H13",
+    "category": "hard",
+    "ip": "5.188.10.180",
+    "label": "attack",
+    "why": "17 failed spread over 6 users",
+    "failures": 17,
+    "users": 6
+  },
+  {
+    "id": "H14",
+    "category": "hard",
+    "ip": "52.80.34.196",
+    "label": "attack",
+    "why": "slow: 5 failed over 3 hours, 3 users",
+    "failures": 5,
+    "users": 3
+  },
+  {
+    "id": "H15",
+    "category": "hard",
+    "ip": "60.2.12.12",
+    "label": "attack",
+    "why": "boundary: exactly 5 failed, 1 user",
+    "failures": 5,
+    "users": 1
+  }
+]
