@@ -1,0 +1,28 @@
+[
+  {
+    "user": "rahim",
+    "ip": "185.220.101.5",
+    "country": "RU",
+    "first_seen": "2026-10-02 03:15:00",
+    "last_seen": "2026-10-02 03:18:40",
+    "failed_logins": 10,
+    "successful_logins": 1,
+    "max_risk_score": 100,
+    "rules_triggered": [
+      "new_country",
+      "new_ip",
+      "odd_hour",
+      "repeated_failures",
+      "success_after_N_failures"
+    ],
+    "possible_account_takeover": true,
+    "incident_id": "INC-001",
+    "summary": "User account 'rahim' experienced a suspected account takeover following 10 failed login attempts and one successful login from an IP address located in Russia. The activity triggered multiple security alerts, including anomalous geographic location and suspicious login timing.",
+    "next_steps": [
+      "Reset the password for the account 'rahim' to prevent further unauthorized access.",
+      "Revoke all active sessions for the user account to force re-authentication.",
+      "Block the IP address 185.220.101.5 at the network firewall."
+    ],
+    "source": "gemini"
+  }
+]

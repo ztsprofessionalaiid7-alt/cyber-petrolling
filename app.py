@@ -9,8 +9,10 @@ st.title("AI Cyber Patrol Agent")
 st.caption("Rule-based detection + Gemini summary + n8n alert. "
            "Alert only: no automatic blocking.")
 
-SCORED, INCIDENTS_F, SENT = ("data/scored.csv", "data/incidents.json",
-                             "data/sent_alerts.json")
+D = "data" if os.path.exists("data/scored.csv") else "demo_data"
+SCORED, INCIDENTS_F, SENT = f"{D}/scored.csv", f"{D}/incidents.json", f"{D}/sent_alerts.json"
+if D == "demo_data":
+    st.info("Demo mode: synthetic sample data. No real logs, no emails sent from this page.")
 
 if not os.path.exists(SCORED):
     st.error("data/scored.csv পাওয়া যায়নি। আগে চালাও: generate_logs.py, "
